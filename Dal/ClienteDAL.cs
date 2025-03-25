@@ -106,7 +106,7 @@ namespace DAL
             SqlConnection cn = new SqlConnection();
             try
             {
-                cn.ConnectionString = Dados.StringConexao();
+                cn.ConnectionString = Dados.StringConexao()
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = cn;
 
